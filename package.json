@@ -1,7 +1,7 @@
 {
   "name": "promotion",
   "version": "0.0.0",
-  "description": "An example that uses the Pro Motion library",
+  "description": "A lightweight Pro Motion viewer suitable for GitHub gists.",
   "main": "/index.html",
   "repository": {
     "type": "git",
