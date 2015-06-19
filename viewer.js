@@ -28,7 +28,7 @@
 	checkReady(function($) {
 		$(function() {
 			$.ajax({
-				url: "story.json5",
+				url: "animation.json5",
 				dataType: 'text',
 				success:function(story){
 					Pro.Motion.Stories.demo = {
@@ -44,7 +44,7 @@
 					Pro.Motion.Stories.Config.default.auto.restart = true;
 
 					$.ajax({
-						url: "story-config.json5",
+						url: "config.json5",
 						dataType: 'text',
 						success:function(config){
 							Pro.Motion.Stories.Config.demo = JSON5.parse(config);
@@ -56,7 +56,7 @@
 					});
 				},
 				error:function(jqXHR, textStatus, errorThrown){
-					$("body").html("story.json5 - " + jqXHR.status + " - " + jqXHR.statusText);
+					$("body").html("animation.json5 - " + jqXHR.status + " - " + jqXHR.statusText);
 				}
 			});
 		});
