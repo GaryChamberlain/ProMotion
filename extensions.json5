@@ -1,0 +1,5 @@
+{
+  flows: {
+	  pageStack: "pro.motion.flow.pageStack.min.js"
+	}
+}
