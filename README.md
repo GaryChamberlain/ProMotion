@@ -1,2 +1,2 @@
-# ProMotion
-An example that uses the Pro Motion animation library
+# ProStyle
+An example that uses the [ProStyle](https://prostyle.io) animation library
